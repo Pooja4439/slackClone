@@ -16,12 +16,10 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "ng": "set NODE_OPTIONS=--openssl-legacy-provider && ng",
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
