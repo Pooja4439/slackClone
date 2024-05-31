@@ -16,10 +16,12 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provide && react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provide && react-scripts build",
-    "test": "set NODE_OPTIONS=--openssl-legacy-provide && react-scripts test",
-    "eject": "set NODE_OPTIONS=--openssl-legacy-provide && react-scripts eject"
+    "ng": "set NODE_OPTIONS=--openssl-legacy-provider && ng",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
   "eslintConfig": {
     "extends": "react-app"
