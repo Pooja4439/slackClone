@@ -8,7 +8,7 @@ import { useStateValue } from "./components/Utility/StateProvider";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
 
   return (
     <div className="App">

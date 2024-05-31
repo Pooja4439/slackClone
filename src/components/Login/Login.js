@@ -6,7 +6,7 @@ import { useStateValue } from "../Utility/StateProvider";
 import { actionTypes } from "../Utility/reducer";
 
 function Login() {
-  const [state, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
 
   const signIn = (error) => {
     auth
